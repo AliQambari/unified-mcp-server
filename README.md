@@ -1,11 +1,11 @@
-# 🚀 Unified MCP Server
+# 🚀 Unified MCP Server - One tool server; multiple protocols 
 
 [![Python 3.13+](https://img.shields.io/badge/python-3.13+-blue.svg)](https://www.python.org/downloads/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.118+-green.svg)](https://fastapi.tiangolo.com/)
 [![MCP Protocol](https://img.shields.io/badge/MCP-1.16+-purple.svg)](https://modelcontextprotocol.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A powerful, production-ready server that seamlessly exposes AI tools and resources through **multiple protocols**: REST API, MCP (Model Context Protocol), and WebSocket connections.
+A simple server that seamlessly exposes AI tools and resources through **multiple protocols**: REST API, MCP (Model Context Protocol), and WebSocket connections.
 
 ## ✨ Features
 
