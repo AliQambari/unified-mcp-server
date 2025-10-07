@@ -15,7 +15,7 @@ A simple server that seamlessly exposes AI tools and resources through **multipl
 - **WebSocket**: Real-time bidirectional communication
 
 ### 🎯 **Developer Experience**
-- **Simple Decorators**: `@tool`, `@resource`, `@prompt` - that's it!
+- **Simple Decorators**: `@tool`, `@resource`,'@resource_template', `@prompt` - that's it!
 - **Auto Schema Generation**: Function signatures → JSON schemas automatically
 - **Type Safety**: Full type hints with mypy support
 - **Async/Await**: Native async support throughout
