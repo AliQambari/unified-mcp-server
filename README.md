@@ -235,6 +235,7 @@ src/unified_server/
 ├── 🎨 decorators/         # Decorator implementations
 │   ├── tool.py          # @tool decorator
 │   ├── resource.py      # @resource decorator
+│   ├── resource_template.py  # @resource template decorator
 │   └── prompt.py        # @prompt decorator
 ├── 🛣️ routes/            # HTTP route handlers
 │   ├── tools.py         # Tool execution endpoints
@@ -345,4 +346,3 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ---
 
-**Made with ❤️ for the AI development community**
