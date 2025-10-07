@@ -1,0 +1,6 @@
+git init
+git add .
+git commit -m "Initial commit: Unified MCP Server"
+git remote add origin https://github.com/yourusername/unified-mcp-server.git
+git branch -M main
+git push -u origin main

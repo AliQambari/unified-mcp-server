@@ -1,0 +1,2 @@
+This is sample data from a real file.
+You can edit data.txt to change this content.
