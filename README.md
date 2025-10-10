@@ -1,11 +1,11 @@
-# 🚀 Unified MCP Server
+# 🚀 Unified MCP Server - One tool server; multiple protocols 
 
 [![Python 3.13+](https://img.shields.io/badge/python-3.13+-blue.svg)](https://www.python.org/downloads/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.118+-green.svg)](https://fastapi.tiangolo.com/)
 [![MCP Protocol](https://img.shields.io/badge/MCP-1.16+-purple.svg)](https://modelcontextprotocol.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A powerful, production-ready server that seamlessly exposes AI tools and resources through **multiple protocols**: REST API, MCP (Model Context Protocol), and WebSocket connections.
+A simple server that seamlessly exposes AI tools and resources through **multiple protocols**: REST API, MCP (Model Context Protocol), and WebSocket connections.
 
 ## ✨ Features
 
@@ -15,8 +15,7 @@ A powerful, production-ready server that seamlessly exposes AI tools and resourc
 - **WebSocket**: Real-time bidirectional communication
 
 ### 🎯 **Developer Experience**
-- **Simple Decorators**: `@tool`, `@resource`, `@prompt` - that's it!
-- **Auto Schema Generation**: Function signatures → JSON schemas automatically
+- **Simple Decorators**: `@tool`, `@resource`, `@resource_template`, `@prompt` - that's it!
 - **Type Safety**: Full type hints with mypy support
 - **Async/Await**: Native async support throughout
 
@@ -236,6 +235,7 @@ src/unified_server/
 ├── 🎨 decorators/         # Decorator implementations
 │   ├── tool.py          # @tool decorator
 │   ├── resource.py      # @resource decorator
+│   ├── resource_template.py  # @resource template decorator
 │   └── prompt.py        # @prompt decorator
 ├── 🛣️ routes/            # HTTP route handlers
 │   ├── tools.py         # Tool execution endpoints
@@ -346,4 +346,3 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ---
 
-**Made with ❤️ for the AI development community**
